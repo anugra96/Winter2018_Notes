@@ -59,7 +59,24 @@ The application developer has control of everything on the application layer sid
 
 ### Addressing Processes
 
-left off: page 117 of textbook
+The receiving process must have an address for the packets to be sent to it.
+
+To identify the receiving process, two pieces of information have to be specified:
+
+1. the address of the host
+2. an identified that specifies the receiving process in the destination host
+
+The host is identified by its **IP Address**. 
+
+- this is a 32-bit quantity that uniquely identifies the host
+
+A destination **port number** to identify the specific process within the receiving host.
+
+> EXAMPLE
+>
+> A Web server is identified by port number 80
+>
+> A mail server process is identified by port number 25
 
 
 
